@@ -2,13 +2,77 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
+
 }
 body{
     background-color: black;
+}
+.container{
+    margin: 5px;
+    padding: 0px;
+}
+.boshidagi-quti{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.boshi-link{
+    text-decoration: none;
+    color: white;
+    gap: 25%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hamma-linkslar{
+    text-decoration: none;
     color: aqua;
 }
-#hero{
-    align-items: center;
+
+
+
+#mening-rasmim{
+    width: 500px;
+    margin: 25px;
+    border-radius: 25px;
+}
+#ismim{
+    color: aqua;
+    text-align: center;
+}
+#sevaman{
+    color: aqua;
+    margin: 5px;
+    text-align: center;
+}
+.quti{
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    width: 270px;
+
+}
+.qanaqa{
+    color: white;
+}
+#html{
+    color: rgb(223, 226, 17);
+}
+.ortaga-olamz{
+    display: flex;
     text-align: center;
     justify-content: center;
+    margin: 10px ;
+    gap: 15px;
+
 }
+.boshi-link:hover{
+    color: brown;
+}
+.hamma-linkslar:hover{
+    color: gold;
+}
+
+
